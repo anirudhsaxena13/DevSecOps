@@ -50,8 +50,8 @@ echo "📁 Setting up project..."
 sudo mkdir -p /var/www/jerney
 sudo chown -R $USER:$USER /var/www/jerney
 
-# Copy project files (assumes you've transferred them to ~/Jerney)
-cp -r ~/Jerney/* /var/www/jerney/
+# Copy project files (assumes you've transferred them to ~/DevSecOps)
+cp -r ~/DevSecOps/* /var/www/jerney/
 
 # --- Install backend dependencies ---
 echo "📦 Installing backend dependencies..."
